@@ -2,9 +2,9 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/310b5046-067e-4db4-8a97-5411d93d6002/deploy-status)](https://app.netlify.com/sites/shizuku-launcher-next/deploys)
 
-Shizuku Launcher is a simple AWS Virtual Machine helper. Shizuku Launcher offers multiple solutions to keep your credential security and your anonymity.
+这是一个AWS EC2开机脚本
 
-Now it is written in Next.js.
+本项目需要在Next.js环境下运行
 
 ## 使用Vercel部署
 
@@ -16,7 +16,7 @@ Now it is written in Next.js.
 
 ## 更改默认的远端地址
 
-在使用Shizuku Launcher的远端模式时，远端地址为可选项，这是由于Shizuku Launcher可以设定默认的远端地址。默认的设置将会使用服务提供商（如Vercel/Netlify）的Serverless Function进行托管。
+在使用远端模式时，远端地址为可选项，这是可以设定默认的远端地址。默认的设置将会使用服务提供商（如Vercel/Netlify）的Serverless Function进行托管。
 
 我们无法保证任何提供商都可以提供此类型的托管（如仅支持前端网页的CloudFlare Pages），在此情况下，您必须更改此设置。
 
