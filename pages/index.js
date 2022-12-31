@@ -1029,11 +1029,11 @@ export default function App() {
   return (
     <div className="App">
       <div>
-        <Typography id="main-title" sx={{ m: 2 }} variant="h4">Shizuku Launcher - AWS开机小助手</Typography>
+        <Typography id="main-title" sx={{ m: 2 }} variant="h4">新世界-AWS开机小助手</Typography>
       </div>
       <div>
         <Stack sx={{ m: 2 }} spacing={2} direction="row">
-          <Link underline="hover" variant="body2" href="https://github.com/hiDandelion/shizuku-launcher-next">访问项目仓库</Link>
+          <Link underline="hover" variant="body2" href="https://aws.xsjv2.com">访问开机面板</Link>
         </Stack>
       </div>
       <div>
