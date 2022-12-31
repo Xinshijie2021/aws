@@ -1033,11 +1033,11 @@ export default function App() {
       </div>
       <div>
         <Stack sx={{ m: 2 }} spacing={2} direction="row">
-          <Link underline="hover" variant="body2" href="https://aws.xsjv2.com">访问开机面板</Link>
+          <Link underline="hover" variant="body2" href="https://github.com/Xinshijie2021/aws">访问项目地址</Link>
         </Stack>
       </div>
       <div>
-        <Image src="/title-shizuku.webp" alt="title-shizuku" width={256} height={256} />
+        <Image src="/title-shizuku.webp" alt="title-xinshijie" width={256} height={256} />
       </div>
       <div>
         <FormControl sx={{ m: 1, width: 0.9, maxWidth: 600 }} variant="standard">
@@ -1073,7 +1073,6 @@ export default function App() {
             <div>本地模式：所有操作均在本地完成，凭证仅发送至AWS，更安全</div>
             <br />
             <div>远端模式：如果您的本地IP已遭滥用，使用远端模式可将凭证发送至远端服务器进行操作，匿名性更高</div>
-            <div>您可以自行搭建远端服务器，具体方法请访问<Link underline="hover" href="https://github.com/hiDandelion/shizuku-launcher-backend">后端项目仓库</Link>，如不填写远端地址将使用默认托管的服务器</div>
             <br />
             <div>本地+代理模式：操作在本地完成，请求通过代理服务器转发至AWS（此模式暂不可用）</div>
             <div>远端+代理模式：操作在远端完成，请求通过代理服务器转发至AWS，匿名性最高</div>
